@@ -1,6 +1,6 @@
 server:
   port: 9527
 spring: 
-  profiles: dev #开发环境
-    application: 
-      name: config-dev
+  profiles:
+    active:
+    - dev
