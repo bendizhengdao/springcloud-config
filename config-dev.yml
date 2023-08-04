@@ -1,6 +1,2 @@
-server:
-  port: 9527
-spring: 
-  profiles:
-    active:
-    - dev
+config: 
+  info: config-dev-test
