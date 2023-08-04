@@ -1,2 +1,6 @@
 server:
   port: 9527
+spring: 
+  profiles: prod #开发环境
+    application: 
+      name: config-prod
